@@ -1,0 +1,225 @@
+﻿Build started 2019-5-23 22:03:38.
+     1>Project "D:\Projs\Eiot\Simba_R6.0.0009\Source\SpatLib\Source\DLL\Custom\Taide\Taide.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Taide.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../Common /I../../../../../Common/Include /I../../../../../Common/Tr /I../../../../../Common/dlmalloc /I../../../../../Common/lock /I../../../../../Common/UtilFn /I../../../../../Common/Include/device /I../../../../../Eiot/lib /I../../../../../Eiot/lib/taide /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _SPATLIB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Taide.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Common\ModeSwitch.cpp ..\..\..\Common\SpatBase.cpp Impl\ActionApp.cpp Impl\ImpBase.cpp Impl\MES_BindData.cpp Impl\MES_CheckRoute.cpp Impl\MES_QueryData.cpp Impl\MES_Save2NextStation.cpp drv\MesDriver.cpp
+         ModeSwitch.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+         SpatBase.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+         ActionApp.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+         ImpBase.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+         MES_BindData.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+         MES_CheckRoute.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>Impl\MES_CheckRoute.cpp(14): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1178) : see declaration of 'wcsrtombs'
+     1>Impl\MES_CheckRoute.cpp(17): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1178) : see declaration of 'wcsrtombs'
+     1>Impl\MES_CheckRoute.cpp(30): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1169) : see declaration of 'mbsrtowcs'
+     1>Impl\MES_CheckRoute.cpp(33): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1169) : see declaration of 'mbsrtowcs'
+         MES_QueryData.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>Impl\MES_QueryData.cpp(50): warning C4189: 'szSN2' : local variable is initialized but not referenced
+         MES_Save2NextStation.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+         MesDriver.cpp
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(322): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: 'Init' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : see previous definition of 'Init'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: 'Version' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : see previous definition of 'Version'
+     1>d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: 'Uninit' : inconsistent dll linkage
+                 d:\projs\eiot\simba_r6.0.0009\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : see previous definition of 'Uninit'
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../../../Bin/App/SpatLib\Taide.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../../Common/Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Taide.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projs\Eiot\Simba_R6.0.0009\Bin\App\SpatLib\Taide.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"../../../../../../Bin/App/SpatLib\Taide.lib" /MACHINE:X86 /DLL Release\Taide.res
+         Release\Thread.obj
+         Release\MesData.obj
+         Release\MesDriver.obj
+         Release\ImpBase.obj
+         Release\SpatBase.obj
+         Release\MES_BindData.obj
+         Release\MES_CheckRoute.obj
+         Release\MES_QueryData.obj
+         Release\MES_Save2NextStation.obj
+         Release\stdafx.obj
+         Release\ActionApp.obj
+         Release\ApiExport.obj
+         Release\ModeSwitch.obj
+         Release\SpatRuntimeClass.obj
+         Release\AppVer.obj
+         Release\CLocks.obj
+         Release\CSimpleLock.obj
+         Release\Tr.obj
+         Release\Utility.obj
+         ..\..\..\..\..\Eiot\lib\debuglib.lib
+            Creating library ../../../../../../Bin/App/SpatLib\Taide.lib and object ../../../../../../Bin/App/SpatLib\Taide.exp
+         Generating code
+         Finished generating code
+         Taide.vcxproj -> D:\Projs\Eiot\Simba_R6.0.0009\Source\SpatLib\Source\DLL\Custom\Taide\../../../../../../Bin/App/SpatLib\Taide.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../../../Bin/App/SpatLib\Taide.dll;#2" /manifest Release\Taide.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Taide.unsuccessfulbuild".
+         Touching "Release\Taide.lastbuildstate".
+     1>Done Building Project "D:\Projs\Eiot\Simba_R6.0.0009\Source\SpatLib\Source\DLL\Custom\Taide\Taide.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:08.65

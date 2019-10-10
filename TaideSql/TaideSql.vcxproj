@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{928EF196-938E-47A3-9B7E-CF011C2C132D}</ProjectGuid>
+    <RootNamespace>TaideSql</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../../../Bin/App/SpatLib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../../../Bin/App/SpatLib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../Common;../../../../../Common/Include;../../../../../Common/Tr;../../../../../Common/dlmalloc;../../../../../Common/lock;../../../../../Common/UtilFn;../../../../../Common/Include/device;%(AdditionalIncludeDirectories);../../../../../Eiot/lib;;../../../../../Eiot/lib/TaideSql</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_SPATLIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)TaideSql.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../../../../Common/Lib;%(AdditionalLibraryDirectories);../../../../../Eiot/TaideSql</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)TaideSql.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+    <Manifest>
+      <OutputManifestFile>$(IntDir)$(TargetName)$(TargetExt).embed.manifest</OutputManifestFile>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../../../Common;../../../../../Common/Include;../../../../../Common/Tr;../../../../../Common/dlmalloc;../../../../../Common/lock;../../../../../Common/UtilFn;../../../../../Common/Include/device;%(AdditionalIncludeDirectories);../../../../../Eiot/lib;;../../../../../Eiot/lib/TaideSql</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_SPATLIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)TaideSql.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../../../../Common/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)TaideSql.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Common\thread\Thread.cpp" />
+    <ClCompile Include="drv\MesData.cpp" />
+    <ClCompile Include="drv\MesDriver.cpp" />
+    <ClCompile Include="Impl\ImpBase.cpp" />
+    <ClCompile Include="..\..\..\Common\SpatBase.cpp" />
+    <ClCompile Include="Impl\MES_BindData.cpp" />
+    <ClCompile Include="Impl\MES_CheckRoute.cpp" />
+    <ClCompile Include="Impl\MES_QueryData.cpp" />
+    <ClCompile Include="Impl\MES_Save2NextStation.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Impl\ActionApp.cpp" />
+    <ClCompile Include="..\..\..\Common\ApiExport.cpp" />
+    <ClCompile Include="..\..\..\Common\ModeSwitch.cpp" />
+    <ClCompile Include="..\..\..\Common\SpatRuntimeClass.cpp" />
+    <ClCompile Include="..\..\..\..\..\Common\UtilFn\AppVer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Common\lock\CLocks.cpp" />
+    <ClCompile Include="..\..\..\..\..\Common\lock\CSimpleLock.cpp" />
+    <ClCompile Include="..\..\..\..\..\Common\Tr\Tr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Common\UtilFn\Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Common\thread\Thread.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\Common.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\DataType.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\debug.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\DebugMain.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\ErrorCode.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\Includes.h" />
+    <ClInclude Include="..\..\..\..\..\Eiot\TaideSql\MES_ATE_SOAP.h" />
+    <ClInclude Include="drv\drvdef.h" />
+    <ClInclude Include="drv\LockQueue.h" />
+    <ClInclude Include="drv\MesData.h" />
+    <ClInclude Include="drv\MesDriver.h" />
+    <ClInclude Include="Impl\ImpBase.h" />
+    <ClInclude Include="..\..\..\Common\SpatBase.h" />
+    <ClInclude Include="..\..\..\..\..\Common\Include\SpatLibExport.h" />
+    <ClInclude Include="Impl\MES_BindData.h" />
+    <ClInclude Include="Impl\MES_CheckRoute.h" />
+    <ClInclude Include="Impl\MES_QueryData.h" />
+    <ClInclude Include="Impl\MES_Save2NextStation.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Impl\ActionApp.h" />
+    <ClInclude Include="Impl\ActionList.h" />
+    <ClInclude Include="..\..\..\Common\ModeSwitch.h" />
+    <ClInclude Include="..\..\..\Common\SpatRuntimeClass.h" />
+    <ClInclude Include="..\..\..\..\..\Common\UtilFn\AppVer.h" />
+    <ClInclude Include="..\..\..\..\..\Common\lock\CLocks.h" />
+    <ClInclude Include="..\..\..\..\..\Common\lock\CSimpleLock.h" />
+    <ClInclude Include="..\..\..\..\..\Common\Tr\Tr.h" />
+    <ClInclude Include="..\..\..\..\..\Common\UtilFn\Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TaideSql.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XML\Dummy.XML" />
+    <None Include="XML\ImpWin32.XML" />
+    <None Include="ReadMe.txt" />
+    <None Include="XML\MES_CheckRoute.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Eiot\lib\debuglib.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

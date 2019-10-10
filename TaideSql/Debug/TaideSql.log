@@ -1,0 +1,59 @@
+﻿生成启动时间为 2019/9/25 15:17:50。
+     1>项目“C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Source\SpatLib\Source\DLL\Custom\TaideSql\TaideSql.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\TaideSql.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../Common /I../../../../../Common/Include /I../../../../../Common/Tr /I../../../../../Common/dlmalloc /I../../../../../Common/lock /I../../../../../Common/UtilFn /I../../../../../Common/Include/device /I../../../../../Eiot/lib /I../../../../../Eiot/lib/TaideSql /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _SPATLIB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TaideSql.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Impl\MES_Save2NextStation.cpp
+         MES_Save2NextStation.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taideuploadlog\taideuploadlogdll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taideuploadlog\taideuploadlogdll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taideuploadlog\taideuploadlogdll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\xwd\mes_xwd_webservice.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\xwd\mes_xwd_webservice.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\xwd\mes_xwd_webservice.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\xwdprintsn\xwdprintsn.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\xwdprintsn\xwdprintsn.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\xwdprintsn\xwdprintsn.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\taide\mes_ate_soap.h(83) : 参见“Uninit”的前一个定义
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../../../Bin/App/SpatLib\TaideSql.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../../../../Common/Lib /LIBPATH:../../../../../Eiot/TaideSql kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Bin\App\SpatLib\TaideSql.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"../../../../../../Bin/App/SpatLib\TaideSql.lib" /MACHINE:X86 /DLL Debug\TaideSql.res
+         Debug\Thread.obj
+         Debug\MesData.obj
+         Debug\MesDriver.obj
+         Debug\ImpBase.obj
+         Debug\SpatBase.obj
+         Debug\MES_BindData.obj
+         Debug\MES_CheckRoute.obj
+         Debug\MES_QueryData.obj
+         Debug\MES_Save2NextStation.obj
+         Debug\stdafx.obj
+         Debug\ActionApp.obj
+         Debug\ApiExport.obj
+         Debug\ModeSwitch.obj
+         Debug\SpatRuntimeClass.obj
+         Debug\AppVer.obj
+         Debug\CLocks.obj
+         Debug\CSimpleLock.obj
+         Debug\Tr.obj
+         Debug\Utility.obj
+         ..\..\..\..\..\Eiot\lib\debuglib.lib
+         TaideSql.vcxproj -> C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Source\SpatLib\Source\DLL\Custom\TaideSql\../../../../../../Bin/App/SpatLib\TaideSql.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\TaideSql.unsuccessfulbuild”。
+         正在对“Debug\TaideSql.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Source\SpatLib\Source\DLL\Custom\TaideSql\TaideSql.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.36

@@ -1,0 +1,235 @@
+﻿生成启动时间为 2019/9/24 14:06:38。
+     1>项目“C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Source\SpatLib\Source\DLL\Custom\TaideSql\TaideSql.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\TaideSql.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../Common /I../../../../../Common/Include /I../../../../../Common/Tr /I../../../../../Common/dlmalloc /I../../../../../Common/lock /I../../../../../Common/UtilFn /I../../../../../Common/Include/device /I../../../../../Eiot/lib /I../../../../../Eiot/lib/TaideSql /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _SPATLIB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\TaideSql.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../Common /I../../../../../Common/Include /I../../../../../Common/Tr /I../../../../../Common/dlmalloc /I../../../../../Common/lock /I../../../../../Common/UtilFn /I../../../../../Common/Include/device /I../../../../../Eiot/lib /I../../../../../Eiot/lib/TaideSql /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _SPATLIB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\TaideSql.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\..\Common\thread\Thread.cpp drv\MesData.cpp drv\MesDriver.cpp Impl\ImpBase.cpp ..\..\..\Common\SpatBase.cpp Impl\MES_BindData.cpp Impl\MES_CheckRoute.cpp Impl\MES_QueryData.cpp Impl\MES_Save2NextStation.cpp Impl\ActionApp.cpp ..\..\..\Common\ApiExport.cpp ..\..\..\Common\ModeSwitch.cpp ..\..\..\Common\SpatRuntimeClass.cpp ..\..\..\..\..\Common\UtilFn\AppVer.cpp ..\..\..\..\..\Common\lock\CLocks.cpp ..\..\..\..\..\Common\lock\CSimpleLock.cpp ..\..\..\..\..\Common\Tr\Tr.cpp ..\..\..\..\..\Common\UtilFn\Utility.cpp
+         Thread.cpp
+         MesData.cpp
+         MesDriver.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         ImpBase.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         SpatBase.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         MES_BindData.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>Impl\MES_BindData.cpp(53): warning C4189: “szRet”: 局部变量已初始化但不引用
+         MES_CheckRoute.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>Impl\MES_CheckRoute.cpp(14): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(1178) : 参见“wcsrtombs”的声明
+     1>Impl\MES_CheckRoute.cpp(17): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(1178) : 参见“wcsrtombs”的声明
+     1>Impl\MES_CheckRoute.cpp(30): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(1169) : 参见“mbsrtowcs”的声明
+     1>Impl\MES_CheckRoute.cpp(33): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(1169) : 参见“mbsrtowcs”的声明
+         MES_QueryData.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         MES_Save2NextStation.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         ActionApp.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         ApiExport.cpp
+         ModeSwitch.cpp
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(65): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../TaideUploadLog/TaideUploadLogDll.h(87): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(76): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(87): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../Xwd/MES_XWD_WEBSERVICE.h(324): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(64): warning C4273: “Init”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(67) : 参见“Init”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(67): warning C4273: “Version”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(69) : 参见“Version”的前一个定义
+     1>c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../XwdPrintSN/XwdPrintSN.h(89): warning C4273: “Uninit”: dll 链接不一致
+                 c:\users\pc\desktop\taide\source\simba\simbatool\source\eiot\lib\../taide/MES_ATE_SOAP.h(83) : 参见“Uninit”的前一个定义
+         SpatRuntimeClass.cpp
+         AppVer.cpp
+         CLocks.cpp
+         CSimpleLock.cpp
+         Tr.cpp
+         Utility.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\TaideSql.res" TaideSql.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../../../Bin/App/SpatLib\TaideSql.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../../Common/Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TaideSql.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Bin\App\SpatLib\TaideSql.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"../../../../../../Bin/App/SpatLib\TaideSql.lib" /MACHINE:X86 /DLL Release\TaideSql.res
+         Release\Thread.obj
+         Release\MesData.obj
+         Release\MesDriver.obj
+         Release\ImpBase.obj
+         Release\SpatBase.obj
+         Release\MES_BindData.obj
+         Release\MES_CheckRoute.obj
+         Release\MES_QueryData.obj
+         Release\MES_Save2NextStation.obj
+         Release\stdafx.obj
+         Release\ActionApp.obj
+         Release\ApiExport.obj
+         Release\ModeSwitch.obj
+         Release\SpatRuntimeClass.obj
+         Release\AppVer.obj
+         Release\CLocks.obj
+         Release\CSimpleLock.obj
+         Release\Tr.obj
+         Release\Utility.obj
+         ..\..\..\..\..\Eiot\lib\debuglib.lib
+            正在创建库 ../../../../../../Bin/App/SpatLib\TaideSql.lib 和对象 ../../../../../../Bin/App/SpatLib\TaideSql.exp
+         正在生成代码
+         已完成代码的生成
+         TaideSql.vcxproj -> C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Source\SpatLib\Source\DLL\Custom\TaideSql\../../../../../../Bin/App/SpatLib\TaideSql.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../../../Bin/App/SpatLib\TaideSql.dll;#2" /manifest Release\TaideSql.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\TaideSql.unsuccessfulbuild”。
+         正在对“Release\TaideSql.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\pc\Desktop\Taide\Source\SimBa\SimBaTool\Source\SpatLib\Source\DLL\Custom\TaideSql\TaideSql.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:43.02

@@ -1,0 +1,69 @@
+﻿生成启动时间为 2019-04-02 11:16:43。
+     1>项目“F:\Lsq\Proj\FtTool\Simba_R6.0.0009\Source\SpatLib\Source\DLL\Custom\Taide\Taide.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Taide.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../Common /I../../../../../Common/Include /I../../../../../Common/Tr /I../../../../../Common/dlmalloc /I../../../../../Common/lock /I../../../../../Common/UtilFn /I../../../../../Common/Include/device /I../../../../../Eiot/lib /I../../../../../Eiot/lib/taide /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _SPATLIB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Taide.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../Common /I../../../../../Common/Include /I../../../../../Common/Tr /I../../../../../Common/dlmalloc /I../../../../../Common/lock /I../../../../../Common/UtilFn /I../../../../../Common/Include/device /I../../../../../Eiot/lib /I../../../../../Eiot/lib/taide /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _SPATLIB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Taide.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\..\Common\thread\Thread.cpp drv\MesData.cpp drv\MesDriver.cpp Impl\ImpBase.cpp ..\..\..\Common\SpatBase.cpp Impl\MES_BindData.cpp Impl\MES_CheckRoute.cpp Impl\MES_QueryData.cpp Impl\MES_Save2NextStation.cpp Impl\ActionApp.cpp ..\..\..\Common\ApiExport.cpp ..\..\..\Common\ModeSwitch.cpp ..\..\..\Common\SpatRuntimeClass.cpp ..\..\..\..\..\Common\UtilFn\AppVer.cpp ..\..\..\..\..\Common\lock\CLocks.cpp ..\..\..\..\..\Common\lock\CSimpleLock.cpp ..\..\..\..\..\Common\Tr\Tr.cpp ..\..\..\..\..\Common\UtilFn\Utility.cpp
+         Utility.cpp
+         Tr.cpp
+         CSimpleLock.cpp
+         CLocks.cpp
+         AppVer.cpp
+         SpatRuntimeClass.cpp
+         ModeSwitch.cpp
+         ApiExport.cpp
+         ActionApp.cpp
+         MES_Save2NextStation.cpp
+         MES_QueryData.cpp
+         MES_CheckRoute.cpp
+     1>f:\lsq\proj\fttool\simba_r6.0.0009\source\spatlib\source\dll\custom\taide\impl\mes_checkroute.cpp(14): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h(1178) : 参见“wcsrtombs”的声明
+     1>f:\lsq\proj\fttool\simba_r6.0.0009\source\spatlib\source\dll\custom\taide\impl\mes_checkroute.cpp(17): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h(1178) : 参见“wcsrtombs”的声明
+     1>f:\lsq\proj\fttool\simba_r6.0.0009\source\spatlib\source\dll\custom\taide\impl\mes_checkroute.cpp(30): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h(1169) : 参见“mbsrtowcs”的声明
+     1>f:\lsq\proj\fttool\simba_r6.0.0009\source\spatlib\source\dll\custom\taide\impl\mes_checkroute.cpp(33): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h(1169) : 参见“mbsrtowcs”的声明
+         MES_BindData.cpp
+         SpatBase.cpp
+         ImpBase.cpp
+         MesDriver.cpp
+         MesData.cpp
+         Thread.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Taide.res" Taide.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../../../Bin/App/SpatLib\Taide.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../../../../Common/Lib /LIBPATH:../../../../../Eiot/taide kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"F:\Lsq\Proj\FtTool\Simba_R6.0.0009\Bin\App\SpatLib\Taide.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT:NO /IMPLIB:"../../../../../../Bin/App/SpatLib\Taide.lib" /MACHINE:X86 /DLL Debug\Taide.res
+         Debug\Thread.obj
+         Debug\MesData.obj
+         Debug\MesDriver.obj
+         Debug\ImpBase.obj
+         Debug\SpatBase.obj
+         Debug\MES_BindData.obj
+         Debug\MES_CheckRoute.obj
+         Debug\MES_QueryData.obj
+         Debug\MES_Save2NextStation.obj
+         Debug\stdafx.obj
+         Debug\ActionApp.obj
+         Debug\ApiExport.obj
+         Debug\ModeSwitch.obj
+         Debug\SpatRuntimeClass.obj
+         Debug\AppVer.obj
+         Debug\CLocks.obj
+         Debug\CSimpleLock.obj
+         Debug\Tr.obj
+         Debug\Utility.obj
+         ..\..\..\..\..\Eiot\lib\debuglib.lib
+            正在创建库 ../../../../../../Bin/App/SpatLib\Taide.lib 和对象 ../../../../../../Bin/App/SpatLib\Taide.exp
+         Taide.vcxproj -> F:\Lsq\Proj\FtTool\Simba_R6.0.0009\Source\SpatLib\Source\DLL\Custom\Taide\../../../../../../Bin/App/SpatLib\Taide.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Taide.unsuccessfulbuild”。
+         正在对“Debug\Taide.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Lsq\Proj\FtTool\Simba_R6.0.0009\Source\SpatLib\Source\DLL\Custom\Taide\Taide.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.38

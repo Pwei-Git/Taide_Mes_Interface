@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02.Imp">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="01.Interface">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="09.RC">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="03.App">
+      <UniqueIdentifier>{001f31ad-4309-446e-9433-ff7da3d6da02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Utility">
+      <UniqueIdentifier>{3ee908a4-3caf-431b-8d19-d685360a8447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.XML">
+      <UniqueIdentifier>{9d9e2093-3746-42eb-bda6-7114e19f6b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Imp\drv">
+      <UniqueIdentifier>{9f5f0783-ce66-421d-ad92-dae8785e26f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.lib">
+      <UniqueIdentifier>{38f86db2-318f-4e92-b1d4-b9f31124adc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.lib\TaideSql">
+      <UniqueIdentifier>{6163b28e-662f-4578-9fb2-0deb1b70f40c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Impl\ImpBase.cpp">
+      <Filter>02.Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\SpatBase.cpp">
+      <Filter>02.Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>09.RC</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\ActionApp.cpp">
+      <Filter>03.App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\ApiExport.cpp">
+      <Filter>03.App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\ModeSwitch.cpp">
+      <Filter>03.App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\SpatRuntimeClass.cpp">
+      <Filter>03.App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Common\UtilFn\AppVer.cpp">
+      <Filter>05.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Common\lock\CLocks.cpp">
+      <Filter>05.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Common\lock\CSimpleLock.cpp">
+      <Filter>05.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Common\Tr\Tr.cpp">
+      <Filter>05.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Common\UtilFn\Utility.cpp">
+      <Filter>05.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="drv\MesData.cpp">
+      <Filter>02.Imp\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="drv\MesDriver.cpp">
+      <Filter>02.Imp\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Common\thread\Thread.cpp">
+      <Filter>05.Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\MES_CheckRoute.cpp">
+      <Filter>02.Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\MES_Save2NextStation.cpp">
+      <Filter>02.Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\MES_BindData.cpp">
+      <Filter>02.Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\MES_QueryData.cpp">
+      <Filter>02.Imp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Impl\ImpBase.h">
+      <Filter>02.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\SpatBase.h">
+      <Filter>02.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\Include\SpatLibExport.h">
+      <Filter>01.Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>09.RC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>09.RC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>09.RC</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\ActionApp.h">
+      <Filter>03.App</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\ActionList.h">
+      <Filter>03.App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\ModeSwitch.h">
+      <Filter>03.App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\SpatRuntimeClass.h">
+      <Filter>03.App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\UtilFn\AppVer.h">
+      <Filter>05.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\lock\CLocks.h">
+      <Filter>05.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\lock\CSimpleLock.h">
+      <Filter>05.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\Tr\Tr.h">
+      <Filter>05.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\UtilFn\Utility.h">
+      <Filter>05.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="drv\drvdef.h">
+      <Filter>02.Imp\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="drv\LockQueue.h">
+      <Filter>02.Imp\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="drv\MesData.h">
+      <Filter>02.Imp\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="drv\MesDriver.h">
+      <Filter>02.Imp\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Common\thread\Thread.h">
+      <Filter>05.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\MES_CheckRoute.h">
+      <Filter>02.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\MES_Save2NextStation.h">
+      <Filter>02.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\MES_BindData.h">
+      <Filter>02.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\MES_QueryData.h">
+      <Filter>02.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\Common.h">
+      <Filter>10.lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\DataType.h">
+      <Filter>10.lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\debug.h">
+      <Filter>10.lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\DebugMain.h">
+      <Filter>10.lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\ErrorCode.h">
+      <Filter>10.lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\lib\Includes.h">
+      <Filter>10.lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Eiot\TaideSql\MES_ATE_SOAP.h">
+      <Filter>10.lib\TaideSql</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TaideSql.rc">
+      <Filter>09.RC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XML\Dummy.XML">
+      <Filter>04.XML</Filter>
+    </None>
+    <None Include="XML\ImpWin32.XML">
+      <Filter>04.XML</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="XML\MES_CheckRoute.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Eiot\lib\debuglib.lib">
+      <Filter>10.lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+LIBRARY "MES_ATE_SQLSERVER"
+
+EXPORTS
+    CheckRoute @1	
+	BindData @2
+	QueryData @3
+	Save2NextStation @4

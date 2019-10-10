@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Node>
+	<Option>
+    <A>I am a text parameter in &lt;Option&gt;</A>
+    <B>55.0, 66.0, 88.0, 100.0</B>
+    <C Control="CheckBox" Description="I am CheckBox 复选框 in &lt;Option&gt;">1</C>
+    <D Control="ComboBox" Elements="Option1,Option2,Option3" Description="I am ComboBox 下拉框 in &lt;Option&gt;">Option2</D>
+    <E Property="ReadOnly" Description="I am ReadyOnly 只读 in &lt;Option&gt;">
+      <E1>Example for readonly property</E1>
+      <E2>88.88,99.99</E2>
+    </E>
+    <F Property="InVisible" Description="I am invisible 看不到我 in &lt;Option&gt;">
+      <F1>Example for invisible property</F1>
+      <F2>100,200</F2>
+    </F>
+    <!-- ControlNode specifies the tag of ComboBox -->
+    <G Control="BoolComboBox" ControlNode="G2" Description="联动下拉框">
+      <G1>点击下拉框试试</G1>
+      <G2 Control="ComboBox" Elements="UnShow,Show">Show</G2>
+      <G3>1</G3>
+      <G4>0</G4>
+      <G5>1</G5>
+      <G6>1</G6>
+    </G>
+	</Option>
+	<Param>
+    <P1>I am a text parameter in &lt;Param&gt;</P1>
+    <P2>44.0, 55.0, 66.0, 77.0</P2>
+    <P3 Control="CheckBox" Description="I am CheckBox 复选框 in &lt;Param&gt;">0</P3>
+    <P4 Control="ComboBox" Elements="Option1,Option2,Option3" Description="I am ComboBox 下拉框 in &lt;Param&gt;">Option2</P4>
+    <P5 Property="ReadOnly" Description="I am ReadyOnly 只读 in &lt;Param&gt;">
+      <P51>Example for readonly property</P51>
+      <P52>11.1,22.22,33.0,44.0</P52>
+    </P5>
+    <P6 Property="InVisible" Description="I am invisible 看不到我 in &lt;Param&gt;">
+      <P61>Example for invisible property</P61>
+      <P62>50,10</P62>
+    </P6>
+	</Param>
+</Node>
